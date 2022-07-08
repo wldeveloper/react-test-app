@@ -1,4 +1,6 @@
+// 全局变量类型声明引用
 /// <reference types="vite/client" />
+/// <reference types="jest" />
 
 type Dispatch<A> = (value: A) => void
 type SetStateAction<S> = S | ((prevState: S) => S)
